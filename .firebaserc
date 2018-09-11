@@ -1,6 +1,5 @@
 {
   "projects": {
-    "staging": "staging-3c5e6"
-    "default": "ci-testing-4d6f0"
+    "husnain-crewlogix": "staging-3c5e6"
   }
 }
