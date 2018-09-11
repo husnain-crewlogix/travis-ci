@@ -7,8 +7,8 @@ install:
   - "npm install -g firebase-tools"
 after_success:
   - provider: firebase
-    project: staging
+    env: staging
       - firebase deploy --token $FIREBASE_TOKEN_STAGING
   - provider: firebase
-    project: default
+    env: default
       - firebase deploy --token $FIREBASE_TOKEN
